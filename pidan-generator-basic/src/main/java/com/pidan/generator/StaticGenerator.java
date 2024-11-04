@@ -1,4 +1,4 @@
-package com.yupi.generator;
+package com.pidan.generator;
 
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.ArrayUtil;
@@ -15,20 +15,6 @@ import java.nio.file.StandardCopyOption;
  */
 public class StaticGenerator {
 
-    public static void main(String[] args) {
-
-        // 获取整个项目的根路径
-        String projectPath = System.getProperty("user.dir");
-        File parentFile = new File(projectPath).getParentFile();
-        // 输入路径：ACM 示例代码模板目录
-        String inputPath = new File(parentFile, "pidan-generator-demo-projects/acm-template").getAbsolutePath();
-        // 输出路径：直接输出到项目的根目录
-        String outputPath = projectPath;
-        copyFilesByHutool(inputPath, outputPath);
-
-
-    }
-
 
     /**
      * 拷贝文件（Hutool 实现，会将输入目录完整拷贝到输出目录下）
@@ -38,6 +24,36 @@ public class StaticGenerator {
      */
     public static void copyFilesByHutool(String inputPath, String outputPath) {
         FileUtil.copy(inputPath, outputPath, false);
+    }
+
+
+    public static void main(String[] args) {
+        // 获取整个项目的根路径
+        String projectPath = System.getProperty("user.dir");
+        File parentFile = new File(projectPath).getParentFile();
+        // 输入路径：ACM 示例代码模板目录
+        String inputPath = new File(parentFile,
+                "pidan-generator-basic/acm-template").getAbsolutePath();
+        // 输出路径：直接输出到项目的根目录
+        String outputPath = projectPath;
+        copyFilesByHutool(inputPath, outputPath);
+    }
+
+
+    /**
+     * 递归拷贝文件（递归实现，会将输入目录完整拷贝到输出目录下）
+     * @param inputPath
+     * @param outputPath
+     */
+    public static void copyFilesByRecursive(String inputPath, String outputPath) {
+        File inputFile = new File(inputPath);
+        File outputFile = new File(outputPath);
+        try {
+            copyFileByRecursive(inputFile, outputFile);
+        } catch (Exception e) {
+            System.err.println("文件复制失败");
+            e.printStackTrace();
+        }
     }
 
     /**
