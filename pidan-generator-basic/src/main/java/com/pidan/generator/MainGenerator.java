@@ -19,18 +19,32 @@ public class MainGenerator {
      * @throws IOException
      */
     public static void doGenerate(Object model) throws TemplateException, IOException {
-        String projectPath = System.getProperty("user.dir");
-        // 整个项目的根路径
-        File parentFile = new File(projectPath).getParentFile();
-        // 输入路径
-        String inputPath = new File(parentFile, "pidan-generator-basic/acm-template").getAbsolutePath();
-        String outputPath = projectPath;
+
+        String inputRootPath = "D:\\Javadevelop\\daimashengchengqigongxiangxiangmu\\" +
+                "pidan-generator\\pidan-generator-demo-projects\\acm-template-pro";
+        String outputRootPath = "D:\\Javadevelop\\daimashengchengqigongxiangxiangmu\\" +
+                "pidan-generator";
+
+        String inputPath;
+        String outputPath;
+
+        inputPath = new File(inputRootPath,
+                "src/com/pidan/acm/MainTemplate.java.ftl").getAbsolutePath();
+        outputPath = new File(outputRootPath,
+                "src/com/pidan/acm/MainTemplate.java").getAbsolutePath();
+        DynamicGenerator.doGenerate(inputPath, outputPath, model);
+
+        inputPath = new File(inputRootPath, ".gitignore").getAbsolutePath();
+        outputPath = new File(outputRootPath, ".gitignore").getAbsolutePath();
         // 生成静态文件
         StaticGenerator.copyFilesByHutool(inputPath, outputPath);
-        // 生成动态文件
-        String inputDynamicFilePath = projectPath + File.separator + "src/main/resources/templates/MainTemplate.java.ftl";
-        String outputDynamicFilePath = outputPath + File.separator + "acm-template/src/com/pidan/acm/MainTemplate.java";
-        DynamicGenerator.doGenerate(inputDynamicFilePath, outputDynamicFilePath, model);
+
+        inputPath = new File(inputRootPath, "README.md").getAbsolutePath();
+        outputPath = new File(outputRootPath, "README.md").getAbsolutePath();
+        // 生成静态文件
+        StaticGenerator.copyFilesByHutool(inputPath, outputPath);
+
+
     }
 
     public static void main(String[] args) throws TemplateException, IOException {

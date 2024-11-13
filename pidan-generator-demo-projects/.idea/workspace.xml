@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="990199fc-74d9-4507-9ef5-b94488ad56ce" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm-template-pro/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm-template/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm-template/src/com/pidan/acm/MainTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pidan-generator-demo-projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/generator/JarGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/generator/ScriptGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/generator/file/StaticFileGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/generator/main/MainGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/meta/Meta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/meta/MetaManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/resources/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/resources/templates/java/Main.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/resources/templates/java/cli/command/GenerateCommand.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/resources/templates/java/generator/DynamicGenerator.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/resources/templates/java/generator/MainGenerator.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/resources/templates/java/generator/StaticGenerator.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/resources/templates/java/model/DataModel.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/resources/templates/pom.xml.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-basic/src/main/java/com/pidan/generator/MainGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pidan-generator-basic/src/main/java/com/pidan/generator/MainGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/generator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/generator.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/cli/CommandExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/resources/templates/java/cli/CommandExecutor.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/cli/command/ConfigCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/resources/templates/java/cli/command/ConfigCommand.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/cli/command/GenerateCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/cli/command/ListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/resources/templates/java/cli/command/ListCommand.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/cli/example/ASCIIArt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/cli/example/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/cli/example/SubCommandExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/cli/pattern/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/cli/pattern/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/cli/pattern/Device.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/cli/pattern/RemoteControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/cli/pattern/TurnOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/cli/pattern/TurnOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/generator/DynamicFileGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/generator/file/DynamicFileGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/generator/MainGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/generator/file/FileGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/generator/StaticGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/model/DataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pidan-generator-maker/src/main/java/com/pidan/maker/model/DataModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/resources/templates/MainTemplate.java.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/acm-template-pro/src/com/pidan/acm/MainTemplate.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/main/resources/templates/myweb.html.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pidan-generator-maker/src/test/java/FreeMarkerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yuzi-generator-demo-projects/acm-template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yuzi-generator-demo-projects/acm-template/src/com/yupi/acm/MainTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/acm-template-pro/src/com/pidan/acm/MainTemplate.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Javadevelop\apache-maven-3.6.1-bin\apache-maven-3.6.1\mvn_repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Javadevelop\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2oTjA1iVCJ2SuzhYYu3Bmn1ioMT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Javadevelop/daimashengchengqigongxiangxiangmu/pidan-generater/pidan-generator-demo-projects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "问题",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling log-folder="D:\Javajdk\IDEA\IntelliJ IDEA 2023.2.5\jbr\bin\." />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="SPRING_BOOT_MAIN_CLASS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="990199fc-74d9-4507-9ef5-b94488ad56ce" name="更改" comment="" />
+      <created>1730900313000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730900313000</updated>
+      <workItem from="1730900314030" duration="817000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
